@@ -1,0 +1,26 @@
+No tengo talentos especiales, pero sí soy profundamente curioso. Me mueve la necesidad de
+aprender cosas nuevas que me permitan mejorar cada día.
+
+Comencé a programar cuando tenia 14 años en Pascal con un lapiz y una libreta
+porque no tenía pc. De acuerdo a mi experiencia, no se puede ser fanatico de ninguna
+tecnología.
+La tecnologia sirve para solucionar problemas, cuando hay un problema se analiza
+y se determina que tecnología y lenguaje son mejores para darle solución. 
+
+Una de las ramas en las que me he especializado es en la migración de bibliotecas
+entre diferentes sistemas operativos y lenguajes. He desarrollado bibliotecas
+en C para los lenguajes PHP,Python,Java.
+
+He usado varios sistemas UNIX
+(FreeBsd, OpenBSD, NetBsd,Minix) y conozco con más profundidad Linux y Windows, cuyos
+APIs (el general, Sockets, ISAPI, GDI , WININET , incluida la tecnología COM y
+ActiveX, etc.) conozco bastante bien. Conozco con fundamento la mayoría de las
+tecnologías de Internet: UDP, TCP/IP, HTTP con extensiones tanto en el servidor: CGI,
+ISAPI, módulos Apache, ASP, PHP como en el cliente: VBScript y JavaScript , y por
+supuesto el resto de protocolos de Internet: SMTP, Telnet, POP3,LDAP entre otros. Así
+como el montaje de servicios de red, Clusters y la Virtualizacion de servidores.
+
+Para desarrollar mi trabajo he empleado los lenguajes de programación:
+AWK,Bash,C,C++,C#,Java,JavaScript,Object Pascal,Ruby,Python,PHP,SQL,Groovy
+Scala,Visual Basic entre otros.
+
