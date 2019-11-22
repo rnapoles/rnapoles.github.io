@@ -39,9 +39,24 @@ var callback = function(){
         closeClick  : false,
         closeEffect : 'fade',
         openEffect  : 'elastic'
-    });    
+    });
+    
+    $('.image-gallery').lightSlider({
+        gallery:true,
+        item:1,
+        slideMargin: 0,
+        pager:false,
+        speed:500,
+        auto:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('.image-gallery').removeClass('cS-hidden');
+        }  
+    });
     
 };
+
+
 $(document).ready(callback);
 
 var resize;
