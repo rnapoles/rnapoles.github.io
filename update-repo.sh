@@ -28,7 +28,7 @@ if [ $? -eq 0 ]; then
   dotlockfile -u $DST_FOLDER/file.lock
   
   echo tailf
-  tailf /var/log/syslog
+  tail -f /var/log/syslog
 fi
 
 
