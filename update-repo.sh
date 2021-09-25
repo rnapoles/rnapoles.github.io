@@ -13,14 +13,21 @@ if [ $? -eq 0 ]; then
 
   echo Actualizando
   git pull
+  
+  echo Set perms
   chmod +x ./update-repo.sh
 
+  echo Sync folders
   cp -R $BASE_FOLDER/resume/* $DST_FOLDER/
   cp $BASE_FOLDER/conf/cv.conf /etc/apache2/sites-enabled/
 
+  echo Restart apache
   service apache2 restart
 
+  echo unlock
   dotlockfile -u $DST_FOLDER/file.lock
+  
+  echo tailf
   tailf /var/log/syslog
 fi
 
