@@ -9,7 +9,6 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="js/plugins/fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" href="js/plugins/fancybox/jquery.fancybox.css">
     <link rel="stylesheet"  href="css/lightslider.css"/>
     <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -1070,8 +1069,8 @@
         <div class="row">
 
             <div class="col-sm-4">
-                <a class="thumbnail fancybox" rel="gallery-1" href="img/projects/lagunasanMartin.png">
-                    <img alt="Lagunas de San Martín" src="img/projects/lagunasanMartin.png" class="media-object" data-holder-rendered="true">
+                <a class="thumbnail fancybox" rel="gallery-1" href="img/projects/lagunasanmartin.png">
+                    <img alt="Lagunas de San Martín" src="img/projects/lagunasanmartin.png" class="media-object" data-holder-rendered="true">
                 </a>
             </div>
 
@@ -1305,8 +1304,8 @@
         <div class="row">
 
             <div class="col-sm-4">
-                <a class="thumbnail fancybox" rel="gallery-1" href="img/projects/SRVMonitor.png">
-                    <img alt="SRVMonitor" src="img/projects/SRVMonitor.png" class="media-object" data-holder-rendered="true">
+                <a class="thumbnail fancybox" rel="gallery-1" href="img/projects/srvmonitor.png">
+                    <img alt="SRVMonitor" src="img/projects/srvmonitor.png" class="media-object" data-holder-rendered="true">
                 </a>
             </div>
 
@@ -1559,7 +1558,7 @@
                         <b>Application type:</b> Android APP
                     </li>
                     <li>
-                        <b>URL:</b> 
+                        <b>APK:</b> 
                         <a href="apps/com.estudiogadiel.estudiogadiel-release.apk">Download</a>
                     </li>
                 </ul>
@@ -1767,6 +1766,18 @@
                     </li>
                     <li>
                         <b>Application type:</b> Desktop
+                    </li>
+                    <li>
+                        <b>APK 1:</b> 
+                        <a href="apps/aliannis.valcarcel.hernandez.apk">Download</a>
+                    </li>
+                    <li>
+                        <b>APK 2:</b> 
+                        <a href="apps/gia.hadas.y.duendes.apk">Download</a>
+                    </li>
+                    <li>
+                        <b>APK 3:</b> 
+                        <a href="apps/naviella.salazar.delgado.apk">Download</a>
                     </li>
                 </ul>
             </div>
