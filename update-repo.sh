@@ -4,7 +4,7 @@ BASE_FOLDER=/root/www/mis-docs
 DST_FOLDER=/var/www/cv
 mkdir -p $DST_FOLDER
 
-dotlockfile -l -r 0 -p $DST_FOLDER/file.lock || exit                                                                                
+dotlockfile -l -r 0 -p $DST_FOLDER/file.lock || exit 0                                                                             
 
 cd $BASE_FOLDER
 git pull
