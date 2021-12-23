@@ -615,8 +615,8 @@
         <div class="row">
 
             <div class="col-sm-4">
-                <a class="thumbnail fancybox" rel="gallery-1" href="img/projects/Ecured.png">
-                    <img alt="Ecured Portable" src="img/projects/Ecured.png" class="media-object" data-holder-rendered="true">
+                <a class="thumbnail fancybox" rel="gallery-1" href="img/projects/ecured.png">
+                    <img alt="Ecured Portable" src="img/projects/ecured.png" class="media-object" data-holder-rendered="true">
                 </a>
             </div>
 
