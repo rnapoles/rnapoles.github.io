@@ -25,6 +25,10 @@ body{
   color: #363636;
   background: #ededed;
 }
+body{
+  background-image: initial;
+  background-color: rgb(36, 39, 40);
+}
 /*******************************************
 CONTAINER
 *******************************************/
@@ -33,6 +37,12 @@ CONTAINER
   margin-bottom: 15px;
   background: #fff;
 }
+.container {
+  background-image: initial;
+  background-color: rgb(25, 27, 28);
+  color: #fff;
+}
+
 /*******************************************
 PHOTO (AVATAR)
 *******************************************/
@@ -98,7 +108,7 @@ DEFAULT BOX
   margin-right: 5px;
 }
 .box p{
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.5em;
 }
 /*******************************************
@@ -142,6 +152,16 @@ EDUCATION
   font-weight: 700;
   display: inline-block;
 }
+#education .year {
+  background-image: initial;
+  background-color: rgb(25, 27, 28);
+  background-color: rgb(36, 38, 40);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  text-align: center;
+}
 #education .description{
   width: 80%;
   display: inline-block;
@@ -150,6 +170,11 @@ EDUCATION
   position: relative;
   padding: 10px 10px 0 10px;
   border-bottom: 1px solid #ddd;
+}
+#education .description {
+  background-image: initial;
+  background-color: rgb(36, 38, 40);
+  border-bottom-color: rgb(61, 65, 68);
 }
 #education .description:after {
   content: '';
@@ -200,15 +225,18 @@ EXPERIENCES
 /*******************************************
 CONTACT
 *******************************************/
+.contact-container {
+  margin-bottom: 25px;
+}
 .contact-item{
   width: 100%;
   float: left;
 }
 .contact-item .icon{
   padding: 10px;
-  border-right: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
+  border: 1px solid #aaa;
   opacity: 0.2;
+  background-color: black;
 }
 .contact-item:last-child .icon{
   border-bottom: none;
@@ -231,6 +259,19 @@ CONTACT
   width: calc(100% - 55px);
   font-size: 1.2em;
   opacity: 0.7;
+}
+.contact-item a, .contact-item a:visited {
+  color: white;
+}
+/*******************************************
+Programming Languages
+*******************************************/
+.prog-lang-header {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.prog-lang-item {
+  font-size: 1.3em;
 }
 /*******************************************
 SKILLS
@@ -302,12 +343,12 @@ LANGUAGES
   border-bottom: 1px solid #eee;
 }
 #language-skills .skill .icons{
-  width: 111px;
+  width: 74px;
   height: 14px;
-  background: url(../img/star-grey.png) no-repeat;
+  background: url(../img/star-grey-1.png) no-repeat;
 }
 #language-skills .skill .icons-red{
-  background: url(../img/star-red.png) no-repeat;
+  background: url(../img/star-red-1.png) no-repeat;
 }
 /*******************************************
 HOBBIES
