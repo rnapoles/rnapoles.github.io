@@ -1,6 +1,22 @@
 var callback = function(){
 	
-    $('.item-skills').each(function(){
+  $('.x-filter-action').click(function(){
+    
+    var text = $(this).text();
+    var selector = '.x-sel-' + text
+      .replace(/\s+/g,'-')
+      .replace('++','pp')
+      .replace('#','sharp')
+      .toLowerCase();
+    ;
+    
+    $('.x-project').hide();
+    $(selector).show();
+    
+    
+  });
+
+  $('.item-skills').each(function(){
 		newWidth = $(this).parent().width() * $(this).data('percent');
 		$(this).width(0);
         $(this).animate({
@@ -15,7 +31,7 @@ var callback = function(){
         }, 2000);
 	});
     
-    jQuery(".fancybox").fancybox({
+  jQuery(".fancybox").fancybox({
     groupAttr: 'data-rel',
     prevEffect: 'fade',
     nextEffect: 'fade',
@@ -23,36 +39,36 @@ var callback = function(){
     closeEffect  : 'fade',
     closeBtn: true,
     helpers: {
-        title: {
-                type: 'float'
-            }
+    title: {
+            type: 'float'
         }
-    });
+    }
+  });
 
-    $(".fbox-modal").fancybox({
-        maxWidth    : 800,
-        maxHeight   : 600,
-        fitToView   : false,
-        width       : '70%',
-        height      : '70%',
-        autoSize    : false,
-        closeClick  : false,
-        closeEffect : 'fade',
-        openEffect  : 'elastic'
-    });
-    
-    $('.image-gallery').lightSlider({
-        gallery:true,
-        item:1,
-        slideMargin: 0,
-        pager:false,
-        speed:500,
-        auto:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('.image-gallery').removeClass('cS-hidden');
-        }  
-    });
+  $(".fbox-modal").fancybox({
+      maxWidth    : 800,
+      maxHeight   : 600,
+      fitToView   : false,
+      width       : '70%',
+      height      : '70%',
+      autoSize    : false,
+      closeClick  : false,
+      closeEffect : 'fade',
+      openEffect  : 'elastic'
+  });
+  
+  $('.image-gallery').lightSlider({
+      gallery:true,
+      item:1,
+      slideMargin: 0,
+      pager:false,
+      speed:1000,
+      auto:true,
+      loop:true,
+      onSliderLoad: function() {
+          $('.image-gallery').removeClass('cS-hidden');
+      }  
+  });
     
 };
 
