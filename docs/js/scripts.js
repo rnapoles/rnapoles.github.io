@@ -66,7 +66,7 @@ var callback = function(){
       auto:true,
       loop:true,
       onSliderLoad: function() {
-          $('.image-gallery').removeClass('cS-hidden');
+          $('.image-gallery').removeClass('cs-hidden');
       }  
   });
     

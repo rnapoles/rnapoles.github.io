@@ -177,7 +177,7 @@
 .lSAction > a.disabled {
     pointer-events: none;
 }
-.cS-hidden {
+.cs-hidden {
     height: 1px;
     opacity: 0;
     filter: alpha(opacity=0);
