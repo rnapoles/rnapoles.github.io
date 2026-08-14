@@ -3,17 +3,22 @@ var callback = function(){
   $('.x-filter-action').click(function(){
     
     var text = $(this).text();
+    var baseSelector = '.x-project';
     var selector = '.x-sel-' + text
       .replace(/\s+/g,'-')
       .replace('++','pp')
       .replace('#','sharp')
       .toLowerCase();
     ;
-    
-    $('.x-project').hide();
-    $(selector).show();
-    
-    
+
+    if(selector == '.x-sel-all'){
+      $(baseSelector).show();
+    } else {
+      $(baseSelector).hide();
+      $(selector).show();
+    }
+
+   
   });
 
   $('.item-skills').each(function(){
