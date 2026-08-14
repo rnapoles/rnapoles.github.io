@@ -417,6 +417,13 @@ MEDIA
 	margin-left: -40px;
 }
 
+/*
+.project-desc > p {
+	font-size:16px;
+	margin-bottom: 10px;
+}
+*/
+
 .reverse:before {
     content: attr(data-website) "\0040" attr(data-user);
     unicode-bidi: bidi-override;
